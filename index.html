@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vignesh R - Front End Developer</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- ekko css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body class="bg-light">
+    <div class="container my-3 py-3">
+
+      <div class="vic ">      
+        <div class="text-center py-5">
+          <a href="#"><img src="img/logo.jpeg" class="d-block mx-auto rounded-circle" alt="" width="75px" height="75px"></a>
+          <h2 class="pt-4"><em>NiranjnaMakeOver</em></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corrupti itaque nulla provident repellat facere libero  excepturi voluptates, magnam aspernatur. Ducimus molestias, eius repudiandae natus quae .</p>
+        </div>
+      </div>
+      <br />
+
+      <div class="row ">
+        <div class="col-md-4 order-md-2">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Your Product</span>
+            <span class="badge badge-secondary badge-pill">8</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between bg-warning">
+              <div>
+                <h6>Niru Product Name</h6>
+                <small>Shampoo</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-warning">
+              <div>
+                <h6>Niru Product Name</h6>
+                <small>Conditioner</small>
+              </div>
+              <span class="text-muted">$31</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-warning">
+              <div>
+                <h6>Niru Product Name</h6>
+                <small>Foundation</small>
+              </div>
+              <span class="text-muted">$30</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-warning">
+              <div>
+                <h6>Niru Product Name</h6>
+                <small>Lipstick</small>
+              </div>
+              <span class="text-muted">$89</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-warning">
+              <div class="text-primary">
+                <h6>Niru Product Name</h6>
+                <small>Blush</small>
+              </div>
+              <span class="text-primary">$3101</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-danger">
+              <div>
+                <h6>Total (RS)</h6>
+              
+              </div>
+              <span class="text-dark">$3259</span>
+            </li>
+          </ul>
+          <form class="card ">
+            <div class="input-group">
+              <input type="text" class="form-control bg-dark" placeholder="Niru Code">
+              <div class="input-group-append">
+                <button type="submit" class=" nr btn btn-danger">Apply</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3"><strong>Delivery Address</strong></h4>
+          <form >
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <label for="FirstName" ><strong>First name</strong></label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-2">
+                <label for="LastName"><strong>Last name</strong></label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+            <div class="mb-2 pt-3">
+              <label for="username"><strong>User name</strong></label>
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger">@</span>
+                <input type="text" class="form-control bg-dark text-white" placeholder="Vicky" value="" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+               
+            </div>
+            <div class="mb-2 pt-3">
+              <label for="email"><strong>Email</strong> 
+                <span class="text-dark">(optional)</span>
+              </label>
+              <input type="email" class="form-control bg-dark text-white" placeholder="Eg:vicky@123" value="" required>
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+            <div class="mb-2">
+              <label for="address-1">Address-1</label>
+              <input type="text" class="form-control bg-dark text-white" placeholder="Vicky 123 str" value="" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+            <div class="mb-2">
+              <label for="address-2">Address-2 
+                <span class="text-dark">(optional)</span>
+              </label>
+              <input type="text" class="form-control bg-dark text-white" placeholder="Trichy, TamilNadu" value="" required>
+            </div>
+
+            <div class="row">
+              <div class="mb-2 col-md-5 pt-3">
+                <label for="country"><strong>Country</strong></label>
+                  <select class="custom-select d-block w-100 bg-dark" id="country">
+                    <option>Choose </option>
+                    <option>India</option>
+                    <option>Swiss</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+              </div>
+
+              <div class="mb-2 col-md-4 pt-3">
+                <label for="state"><strong>State</strong></label>
+                  <select class="custom-select d-block w-100 bg-dark" id="state">
+                    <option>Choose </option>
+                    <option>Tamil Nadu</option>
+                    <option>Kerala</option>
+                    <option>Andhra</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+              </div>
+              
+              <div class="mb-2 col-md-3 pt-3">
+                <label for="zip"><strong>Zip</strong></label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="Zip file" value="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+
+            <br />
+            <hr class="mb-4"/>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" value="" required>
+              <label class="form-check-label" for="defaultCheck1">
+                Shipping address is same as my billing address
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" value="" required>
+              <label class="form-check-label" for="defaultCheck2">
+                Save the info for next time
+              </label>
+            </div>
+            <hr class="mt-4">
+
+            <br />
+            <h3 class="mb-3">Payment</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked required>
+              <label class="form-check-label" for="exampleRadios1">
+                Gpay
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" required>
+              <label class="form-check-label" for="exampleRadios2">
+                Paytm
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" required>
+              <label class="form-check-label" for="exampleRadios3">
+                Credit Card 
+              </label>
+            </div>
+
+            <br />
+            <div class="row">
+              <div class="col-md-6 mb-2 pt-3">
+                <label for="FirstName"><strong>Card Holder</strong> </label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" required>
+                <small class="text-muted">Full Name as Displayed on Card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-2 pt-3">
+                <label for="LastName"><strong>Card Number</strong></label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 mb-2 pt-3">
+                <label for="expiry"><strong>Expiry Date</strong> </label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" required>
+                <div class="invalid-feedback">
+                  Expiry date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-2 pt-3">
+                <label for="cvv"><strong>CVV</strong></label>
+                <input type="text" class="form-control bg-dark text-white" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr />
+
+            <div class="pt-2">
+              <button class="btn btn-lg bg-danger text-white btn-block" type="submit">Click to Continue</button>
+            </div>
+            <br />
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <br />
+      <section id="footer" class=" text-center text-dark">
+        <p class="pt-5"><i class="fa fa-copyright text-muted" aria-hidden="true"></i> 2017-2021 Company Name</p>
+        <p><a href="#" class="text-primary my-4">Privacy</a>  <a href="#" class="text-primary my-4">Terms</a>  <a href="#" class="text-primary my-4">Support</a></p>
+      </section>
+  
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ekko script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
+      integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // ekko script
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      // collapse script
+      $('.menu-item').click(function(){
+        $('.collapse').collapse('hide');
+      })
+    </script>
+  </body>
+</html>
